@@ -3,4 +3,4 @@ project(WccCLION)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(WccCLION main.cpp)
+add_executable(WccCLION Clases/main.cpp)
