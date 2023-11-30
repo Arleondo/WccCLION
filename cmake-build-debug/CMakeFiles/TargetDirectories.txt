@@ -1,3 +1,3 @@
-D:/Trabajos2/WccCLION/cmake-build-debug/CMakeFiles/WccCLION.dir
-D:/Trabajos2/WccCLION/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Trabajos2/WccCLION/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Trabajos2xd/WccCLION/cmake-build-debug/CMakeFiles/WccCLION.dir
+D:/Trabajos2xd/WccCLION/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Trabajos2xd/WccCLION/cmake-build-debug/CMakeFiles/rebuild_cache.dir

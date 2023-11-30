@@ -7,4 +7,5 @@ add_executable(WccCLION Clases/Classes.cpp
         Resolucion_control_4/Ejercicio3.cpp
         Resolucion_control_4/Array.h
         Resolucion_control_4/Classe.h
-        Resolucion_control_4/Memoryleak.cpp)
+        Resolucion_control_4/Memoryleak.cpp
+        Miniprogra_de_icc/fibonacci.cpp)
