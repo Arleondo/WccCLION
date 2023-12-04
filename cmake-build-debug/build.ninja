@@ -73,6 +73,12 @@ build CMakeFiles/WccCLION.dir/Miniprogra_de_icc/fibonacci.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\WccCLION.dir
   OBJECT_FILE_DIR = CMakeFiles\WccCLION.dir\Miniprogra_de_icc
 
+build CMakeFiles/WccCLION.dir/Miniprogra_de_icc/threads.cpp.obj: CXX_COMPILER__WccCLION_unscanned_Debug D$:/Trabajos2xd/WccCLION/Miniprogra_de_icc/threads.cpp || cmake_object_order_depends_target_WccCLION
+  DEP_FILE = CMakeFiles\WccCLION.dir\Miniprogra_de_icc\threads.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\WccCLION.dir
+  OBJECT_FILE_DIR = CMakeFiles\WccCLION.dir\Miniprogra_de_icc
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target WccCLION
@@ -81,7 +87,7 @@ build CMakeFiles/WccCLION.dir/Miniprogra_de_icc/fibonacci.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable WccCLION.exe
 
-build WccCLION.exe: CXX_EXECUTABLE_LINKER__WccCLION_Debug CMakeFiles/WccCLION.dir/Clases/Classes.cpp.obj CMakeFiles/WccCLION.dir/Resolucion_control_4/Ejercicio3.cpp.obj CMakeFiles/WccCLION.dir/Resolucion_control_4/Memoryleak.cpp.obj CMakeFiles/WccCLION.dir/Miniprogra_de_icc/fibonacci.cpp.obj
+build WccCLION.exe: CXX_EXECUTABLE_LINKER__WccCLION_Debug CMakeFiles/WccCLION.dir/Clases/Classes.cpp.obj CMakeFiles/WccCLION.dir/Resolucion_control_4/Ejercicio3.cpp.obj CMakeFiles/WccCLION.dir/Resolucion_control_4/Memoryleak.cpp.obj CMakeFiles/WccCLION.dir/Miniprogra_de_icc/fibonacci.cpp.obj CMakeFiles/WccCLION.dir/Miniprogra_de_icc/threads.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\WccCLION.dir

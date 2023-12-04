@@ -1,5 +1,6 @@
 #include <iostream>
 //esta es la forma normal sin recursividad
+/*
 int fibonacci_n(int n){
     int fib=0, aux=1, temp, i=0;
     for (;i<n;i++){
@@ -26,3 +27,4 @@ int main(){
     std::cout<<"Forma normal : "<<fibonacci_n(5)<<std::endl;
     std::cout<<"Forma recursiva : "<<fibonacci_r(5);
 }
+*/
