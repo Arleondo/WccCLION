@@ -12,6 +12,16 @@
 # =============================================================================
 
 #############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__WccCLION_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
 # Rule for compiling CXX files.
 
 rule CXX_COMPILER__Clase_Cc2_3_04_unscanned_Debug
@@ -42,7 +52,11 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
+<<<<<<< HEAD:Clase_Cc2_3-04/cmake-build-debug/CMakeFiles/rules.ninja
   command = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Trabajos2\WccCLION\Clase_Cc2_3-04 -BD:\Trabajos2\WccCLION\Clase_Cc2_3-04\cmake-build-debug
+=======
+  command = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Trabajos2xd\WccCLION -BD:\Trabajos2xd\WccCLION\cmake-build-debug
+>>>>>>> 0dbf813b10cad218b94b7b910ce227d3bd6dab63:cmake-build-debug/CMakeFiles/rules.ninja
   description = Re-running CMake...
   generator = 1
 
