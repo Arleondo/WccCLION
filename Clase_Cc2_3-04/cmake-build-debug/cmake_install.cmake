@@ -1,8 +1,4 @@
-<<<<<<< HEAD:Clase_Cc2_3-04/cmake-build-debug/cmake_install.cmake
 # Install script for directory: D:/Trabajos2/WccCLION/Clase_Cc2_3-04
-=======
-# Install script for directory: D:/Trabajos2xd/WccCLION
->>>>>>> 0dbf813b10cad218b94b7b910ce227d3bd6dab63:cmake-build-debug/cmake_install.cmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,9 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-<<<<<<< HEAD:Clase_Cc2_3-04/cmake-build-debug/cmake_install.cmake
 file(WRITE "D:/Trabajos2/WccCLION/Clase_Cc2_3-04/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
-=======
-file(WRITE "D:/Trabajos2xd/WccCLION/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
->>>>>>> 0dbf813b10cad218b94b7b910ce227d3bd6dab63:cmake-build-debug/cmake_install.cmake
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
