@@ -22,6 +22,7 @@ void punteros_y_arrays(){
     cout<<A-lo<<endl;
 
     int *p=A;
+
     /*
     cout<<*p<<endl;
     p=p+1;
@@ -29,6 +30,7 @@ void punteros_y_arrays(){
     p++;
     cout<<*p<<endl;
     */
+
     for (;int *q=A+6;p++){
         cout<<+p<<"\n";
     }
