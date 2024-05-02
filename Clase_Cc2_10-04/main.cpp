@@ -8,7 +8,7 @@ int *P=b;
 int *Q[3]=a;
 int (*q)[3]=a;
 int  (*r)[3][4]=c;
-int (*y)
+int (*y);
 
 int main (){
     cout<<a<<endl;
