@@ -33,7 +33,7 @@ int** Transpuesta_Matriz (int Filas, int Columnas, int **Matriz){
 
 
 int main() {
-    int **A ;
+    int **A = nullptr;
     A = Crear_Matriz(3,4,A);
 
     int **Trans_A = Transpuesta_Matriz(3,4,A);
