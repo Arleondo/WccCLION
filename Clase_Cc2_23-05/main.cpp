@@ -43,7 +43,7 @@ struct Pila{
 
 void Imprimir(nodo<int>* x){
     cout <<"HEAD->";
-    for (nodo<int> *p=x;p;p=p->next){
+    for (nodo<int> *p=x; p ;p=p->next){
         cout <<p->valor<<"->";
     }
     cout << "nullptr \n";
